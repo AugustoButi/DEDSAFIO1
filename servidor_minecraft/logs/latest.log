@@ -1,0 +1,81 @@
+[00:23:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:23:07] [ServerMain/INFO]: Loaded 1337 recipes
+[00:23:07] [ServerMain/INFO]: Loaded 1448 advancements
+[00:23:07] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[00:23:07] [Server thread/INFO]: Loading properties
+[00:23:07] [Server thread/INFO]: Default game type: SURVIVAL
+[00:23:07] [Server thread/INFO]: Generating keypair
+[00:23:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:23:07] [Server thread/INFO]: Using epoll channel type
+[00:23:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:23:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:23:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:23:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:23:07] [Server thread/INFO]: Preparing level "world"
+[00:23:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:23:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:23:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:23:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:23:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:23:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:23:10] [Server thread/INFO]: Time elapsed: 2528 ms
+[00:23:10] [Server thread/INFO]: Done (2.772s)! For help, type "help"
+[00:23:38] [Server thread/INFO]: guatipollo[/127.140.162.26:33151] logged in with entity id 73 at (6.5, 78.0, -4.5)
+[00:23:38] [Server thread/INFO]: guatipollo joined the game
+[00:26:34] [Server thread/INFO]: AlexMXD[/127.58.20.248:50149] logged in with entity id 645 at (-9.5, 72.0, 7.5)
+[00:26:34] [Server thread/INFO]: AlexMXD joined the game
+[00:27:09] [Server thread/INFO]: HERBERPRO[/127.195.124.159:56335] logged in with entity id 771 at (4.5, 75.0, 3.5)
+[00:27:09] [Server thread/INFO]: HERBERPRO joined the game
+[00:27:16] [Server thread/INFO]: guatipollo was slain by AlexMXD
+[00:27:16] [Server thread/INFO]: guatipollo lost connection: Disconnected
+[00:27:16] [Server thread/INFO]: guatipollo left the game
+[00:27:23] [Server thread/INFO]: AugustoButiDMC[/127.132.209.140:33579] logged in with entity id 809 at (-5.748697473523777, 73.0, 10.530208696295828)
+[00:27:23] [Server thread/INFO]: AugustoButiDMC joined the game
+[00:27:37] [Server thread/INFO]: [Not Secure] <AugustoButiDMC> hola
+[00:27:38] [Server thread/INFO]: [Not Secure] <AlexMXD> me va del orto
+[00:28:12] [Server thread/INFO]: [Not Secure] <AugustoButiDMC> ya no mates alex
+[00:28:19] [Server thread/INFO]: xXMANTECADOXx[/127.139.100.193:37743] logged in with entity id 964 at (-8.5, 76.0, 4.5)
+[00:28:19] [Server thread/INFO]: xXMANTECADOXx joined the game
+[00:28:35] [Server thread/INFO]: Made AugustoButiDMC a server operator
+[00:28:36] [Server thread/INFO]: AlexMXD was slain by HERBERPRO
+[00:28:55] [Server thread/INFO]: [AugustoButiDMC: Set the time to 1000]
+[00:29:01] [Server thread/INFO]: HERBERPRO was slain by AlexMXD
+[00:29:10] [Server thread/INFO]: xXMANTECADOXx was slain by Zombie
+[00:29:14] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-1, y=71, z=20} jh{x=3, y=71, z=16}
+[00:29:14] [Server thread/INFO]: HERBERPRO was slain by AlexMXD
+[00:29:15] [Server thread/INFO]: xXMANTECADOXx has made the advancement [Monster Hunter]
+[00:29:16] [Server thread/INFO]: [AugustoButiDMC: Gamerule keepInventory is now set to: true]
+[00:29:25] [Server thread/INFO]: [Not Secure] <AugustoButiDMC> hay keepinventory
+[00:29:29] [Server thread/INFO]: [Not Secure] <HERBERPRO> alex me robo mis cosas
+[00:29:41] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=0, y=0, z=0} jh{x=-15, y=74, z=-9}
+[00:29:43] [Server thread/INFO]: [Not Secure] <AugustoButiDMC> no tengo admin no puedo hacer nd xd
+[00:29:55] [Server thread/INFO]: [Not Secure] <AugustoButiDMC> si addry entra se lo pongo a el
+[00:30:11] [Server thread/INFO]: [Not Secure] <AlexMXD> adry esta de chill viendo su anime
+[00:30:18] [Server thread/INFO]: [Not Secure] <AugustoButiDMC> xd
+[00:30:19] [Server thread/INFO]: AugustoButiDMC lost connection: Disconnected
+[00:30:19] [Server thread/INFO]: AugustoButiDMC left the game
+[00:30:24] [Server thread/INFO]: xXMANTECADOXx lost connection: Disconnected
+[00:30:24] [Server thread/INFO]: xXMANTECADOXx left the game
+[00:31:03] [Server thread/INFO]: AugustoButiDMC[/127.132.209.140:50001] logged in with entity id 2322 at (-10.32737554194001, 73.0, 11.868205938217402)
+[00:31:03] [Server thread/INFO]: AugustoButiDMC joined the game
+[00:31:24] [Server thread/INFO]: AlexMXD fell from a high place
+[00:31:34] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-2, y=70, z=-7}
+[00:31:36] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-3, y=70, z=-6}
+[00:31:36] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-4, y=71, z=-7}
+[00:31:37] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=0, y=0, z=0} jh{x=-2, y=73, z=-12}
+[00:31:38] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-3, y=70, z=-6}
+[00:31:39] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-2, y=70, z=-7}
+[00:31:40] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-3, y=71, z=-3}
+[00:31:40] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-4, y=71, z=-5}
+[00:31:40] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-4, y=71, z=-6}
+[00:31:40] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=1, y=70, z=-10}
+[00:31:40] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-1, y=70, z=-9}
+[00:31:40] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-20, y=72, z=17} jh{x=-2, y=70, z=-6}
+[00:31:41] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=0, y=0, z=0} jh{x=3, y=69, z=-5}
+[00:31:42] [Server thread/INFO]: HERBERPRO was slain by AlexMXD
+[00:31:42] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=0, y=0, z=0} jh{x=0, y=69, z=-8}
+[00:32:00] [Server thread/INFO]: HERBERPRO was slain by AlexMXD
+[00:32:07] [Server thread/INFO]: [Not Secure] <HERBERPRO> alex dame mis cosas
+[00:32:33] [Server thread/INFO]: AlexMXD was slain by HERBERPRO
+[00:32:38] [Server thread/INFO]: AugustoButiDMC lost connection: Disconnected
+[00:32:38] [Server thread/INFO]: AugustoButiDMC left the game

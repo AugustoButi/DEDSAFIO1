@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "1c793a22-b30d-3a69-86c3-fe35acbc8ffd",
+    "name": "augustobutidmc",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "db781a47-50fb-3203-a5c0-439dce483f3f",
     "name": "AugustoButiDMC",
     "level": 4,

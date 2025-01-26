@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-01-26 04:33:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-01-26 04:11:28 +0000"
@@ -36,8 +42,15 @@
     },
     "done": false
   },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-01-26 04:29:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "beef": "2025-01-26 04:24:17 +0000",
       "apple": "2025-01-26 04:23:34 +0000",
       "rotten_flesh": "2025-01-26 04:21:19 +0000"
     },

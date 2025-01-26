@@ -1,13 +1,103 @@
 {
-  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
-      "has_rabbit": "2025-01-26 04:05:46 +0000"
+      "has_mutton": "2025-01-26 04:31:49 +0000"
     },
     "done": true
   },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-01-26 04:17:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-26 04:25:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-26 04:03:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2025-01-26 04:26:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-01-26 04:13:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-01-26 04:05:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-01-26 04:26:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-01-26 04:29:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "beef": "2025-01-26 04:12:11 +0000",
+      "beetroot_soup": "2025-01-26 04:13:47 +0000",
+      "rabbit": "2025-01-26 04:11:47 +0000",
+      "rotten_flesh": "2025-01-26 04:21:23 +0000",
+      "salmon": "2025-01-26 04:26:21 +0000",
+      "dried_kelp": "2025-01-26 04:31:27 +0000",
+      "cooked_salmon": "2025-01-26 04:29:29 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-01-26 04:05:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-01-26 04:05:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-01-26 04:31:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:swamp": "2025-01-26 03:39:25 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-01-26 04:05:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-01-26 04:05:46 +0000"
     },
     "done": true
   },
@@ -35,36 +125,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/emerald_block": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_emerald": "2025-01-26 04:03:51 +0000"
+      "in_water": "2025-01-26 04:25:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
-      "has_bowl": "2025-01-26 04:13:47 +0000"
+      "has_salmon": "2025-01-26 04:26:04 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_rabbit": "2025-01-26 04:05:46 +0000"
+      "in_water": "2025-01-26 04:25:54 +0000"
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "beef": "2025-01-26 04:12:11 +0000",
-      "beetroot_soup": "2025-01-26 04:13:47 +0000",
-      "rabbit": "2025-01-26 04:11:47 +0000",
-      "rotten_flesh": "2025-01-26 04:21:23 +0000"
+      "in_water": "2025-01-26 04:25:54 +0000"
     },
-    "done": false
+    "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
+  "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
-      "has_beef": "2025-01-26 04:05:46 +0000"
+      "has_mutton": "2025-01-26 04:31:49 +0000"
     },
     "done": true
   },
@@ -80,27 +167,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_beef": "2025-01-26 04:05:46 +0000"
+      "in_water": "2025-01-26 04:25:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-01-26 04:26:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-01-26 04:25:54 +0000"
     },
     "done": true
   },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2025-01-26 04:05:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:swamp": "2025-01-26 03:39:25 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2025-01-26 04:05:30 +0000"
     },
     "done": true
   },

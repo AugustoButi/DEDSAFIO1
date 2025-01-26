@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2025-01-26 04:26:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2025-01-26 04:22:42 +0000"
@@ -47,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-01-26 04:26:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chicken": "2025-01-26 04:18:18 +0000",
@@ -54,9 +66,17 @@
       "beef": "2025-01-26 04:06:02 +0000",
       "beetroot_soup": "2025-01-26 04:22:31 +0000",
       "rabbit": "2025-01-26 04:06:00 +0000",
-      "rotten_flesh": "2025-01-26 04:18:32 +0000"
+      "rotten_flesh": "2025-01-26 04:18:32 +0000",
+      "dried_kelp": "2025-01-26 04:31:39 +0000",
+      "rabbit_stew": "2025-01-26 04:28:09 +0000"
     },
     "done": false
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-01-26 04:29:49 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
@@ -124,6 +144,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-01-26 04:26:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2025-01-26 04:11:29 +0000"
@@ -169,6 +195,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-01-26 04:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-01-26 04:26:06 +0000"
     },
     "done": true
   },

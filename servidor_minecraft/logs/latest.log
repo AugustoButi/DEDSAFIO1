@@ -1,156 +1,85 @@
-[03:54:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:54:05] [main/INFO]: Reloading ResourceManager: Default
-[03:54:06] [Worker-Main-4/INFO]: Loaded 7 recipes
-[03:54:06] [Worker-Main-4/INFO]: Loaded 927 advancements
-[03:54:08] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[03:54:08] [Server thread/INFO]: Loading properties
-[03:54:08] [Server thread/INFO]: Default game type: SURVIVAL
-[03:54:08] [Server thread/INFO]: Generating keypair
-[03:54:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:54:08] [Server thread/INFO]: Using epoll channel type
-[03:54:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:54:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:54:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:54:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:54:08] [Server thread/INFO]: Preparing level "world"
-[03:54:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
-[03:54:11] [Server thread/INFO]: Time elapsed: 1949 ms
-[03:54:11] [Server thread/INFO]: Done (2.072s)! For help, type "help"
-[03:54:12] [Server thread/INFO]: HERBERPRO[/127.156.225.78:51441] logged in with entity id 40 at (-3.5, 75.0, -15.5)
-[03:54:12] [Server thread/INFO]: HERBERPRO joined the game
-[03:54:15] [Server thread/INFO]: HERBERPRO lost connection: You logged in from another location
-[03:54:15] [Server thread/INFO]: HERBERPRO left the game
-[03:54:15] [Server thread/INFO]: HERBERPRO[/127.156.225.78:53851] logged in with entity id 46 at (-3.5, 75.0, -15.5)
-[03:54:15] [Server thread/INFO]: HERBERPRO joined the game
-[03:54:22] [Server thread/INFO]: HERBERPRO lost connection: Disconnected
-[03:54:22] [Server thread/INFO]: HERBERPRO left the game
-[03:54:53] [Server thread/INFO]: AugustoButiDMC[/127.132.209.140:35683] logged in with entity id 47 at (-15.699999988079071, 75.0, -10.699999988079071)
-[03:54:53] [Server thread/INFO]: AugustoButiDMC joined the game
-[03:55:12] [Server thread/INFO]: Light7[/127.6.183.42:34967] logged in with entity id 48 at (-24.707099041110183, 75.5, -13.188070164705243)
-[03:55:12] [Server thread/INFO]: Light7 joined the game
-[03:55:23] [Server thread/INFO]: <Light7> xd
-[03:55:47] [Server thread/INFO]: <AugustoButiDMC> ya oe
-[03:56:03] [Server thread/INFO]: <AugustoButiDMC> q tengo el la cara?
-[03:56:07] [Server thread/INFO]: HERBERPRO[/127.156.225.78:40513] logged in with entity id 55 at (-3.5, 75.0, -15.5)
-[03:56:07] [Server thread/INFO]: HERBERPRO joined the game
-[03:56:09] [Server thread/INFO]: <Light7> nada
-[03:56:11] [Server thread/INFO]: <Light7> a
-[03:56:12] [Server thread/INFO]: <AugustoButiDMC> hay?
-[03:56:13] [Server thread/INFO]: <Light7> xd
-[03:56:20] [Server thread/INFO]: <AugustoButiDMC> hay?
-[03:56:20] [Server thread/INFO]: <AugustoButiDMC> hay?
-[03:56:21] [Server thread/INFO]: <AugustoButiDMC> hay?
-[03:56:21] [Server thread/INFO]: <AugustoButiDMC> hay?
-[03:56:22] [Server thread/INFO]: <AugustoButiDMC> hay?
-[03:56:24] [Server thread/INFO]: <Light7> te vez raro
-[03:56:28] [Server thread/INFO]: <AugustoButiDMC> que tengo
-[03:56:34] [Server thread/INFO]: <Light7> una mascarilla
-[03:56:37] [Server thread/INFO]: <AugustoButiDMC> ok
-[03:56:59] [Server thread/INFO]: <AugustoButiDMC> falto paxa
-[03:57:05] [Server thread/INFO]: <HERBERPRO> holaa
-[03:57:10] [Server thread/INFO]: <AugustoButiDMC> se te cargo el texture apck?
-[03:57:16] [Server thread/INFO]: <Light7> mis hijos juntos
-[03:57:17] [Server thread/INFO]: <HERBERPRO> si
-[03:57:20] [Server thread/INFO]: <AugustoButiDMC> seguro?
-[03:57:24] [Server thread/INFO]: <HERBERPRO> si
-[03:57:24] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:26] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:26] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:46] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:48] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:49] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:49] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:49] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:50] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:50] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:51] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:51] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:52] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:52] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:52] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:53] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:53] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:53] [Server thread/INFO]: <Light7> mi condon ponchado
-[03:57:53] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:54] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:54] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
-[03:57:57] [Server thread/INFO]: <HERBERPRO> un barbijo nose que
-[03:57:57] [Server thread/INFO]: <AugustoButiDMC> herber
-[03:58:00] [Server thread/INFO]: <AugustoButiDMC> a xd
-[03:58:04] [Server thread/INFO]: <AugustoButiDMC> falta paxa
-[03:58:19] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
-[03:58:36] [Server thread/INFO]: <Light7> lo que le gusta a paxar
-[03:58:44] [Server thread/INFO]: <AugustoButiDMC> lo dejamos?
-[03:58:55] [Server thread/INFO]: <Light7> escribele por d
-[03:58:58] [Server thread/INFO]: <Light7> dc*
-[03:59:09] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
-[03:59:09] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
-[03:59:09] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
-[03:59:10] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
-[03:59:10] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
-[03:59:16] [Server thread/INFO]: <HERBERPRO> porque suena uuhh
-[03:59:45] [Server thread/INFO]: elpaxarz[/127.23.16.54:34927] logged in with entity id 73 at (-11.5, 75.0, -16.5)
-[03:59:45] [Server thread/INFO]: elpaxarz joined the game
-[03:59:55] [Server thread/INFO]: <elpaxarz> ola
-[03:59:57] [Server thread/INFO]: <HERBERPRO> hola
-[04:00:10] [Server thread/INFO]: <elpaxarz> veo negro
-[04:00:14] [Server thread/INFO]: <HERBERPRO> light7 dejaa
-[04:00:15] [Server thread/INFO]: <elpaxarz> AL
-[04:00:19] [Server thread/INFO]: <AugustoButiDMC> tienes el texturepack?
-[04:00:23] [Server thread/INFO]: <AugustoButiDMC> tienes el texturepack?
-[04:00:24] [Server thread/INFO]: <AugustoButiDMC> tienes el texturepack?
-[04:00:28] [Server thread/INFO]: <elpaxarz> SI
-[04:00:33] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
-[04:00:34] [Server thread/INFO]: <elpaxarz> q es
-[04:00:36] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
-[04:00:36] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
-[04:00:41] [Server thread/INFO]: <elpaxarz> mi ping4
-[04:00:42] [Server thread/INFO]: <Light7> un pene
-[04:00:44] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
-[04:00:50] [Server thread/INFO]: <AugustoButiDMC> en serio q tengo en la cara
-[04:01:00] [Server thread/INFO]: <Light7> mirate con f5 no jdas
-[04:01:14] [Server thread/INFO]: <AugustoButiDMC> es para ver si tiene el texture pack
-[04:01:26] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
-[04:01:27] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
-[04:01:27] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
-[04:01:27] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
-[04:01:29] [Server thread/INFO]: <elpaxarz> a
-[04:01:34] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
-[04:01:40] [Server thread/INFO]: <elpaxarz> mi pne
-[04:01:41] [Server thread/INFO]: <Light7> un pene
-[04:01:45] [Server thread/INFO]: <Light7> xd
-[04:01:48] [Server thread/INFO]: <AugustoButiDMC> listo
-[04:01:50] [Server thread/INFO]: <elpaxarz> una mascara xd
-[04:01:52] [Server thread/INFO]: elpaxarz lost connection: chao
-[04:01:52] [Server thread/INFO]: elpaxarz left the game
-[04:02:06] [Server thread/INFO]: elpaxarz[/127.23.16.54:58609] logged in with entity id 76 at (-11.675871464617932, 76.0, -24.84732328476682)
-[04:02:06] [Server thread/INFO]: elpaxarz joined the game
-[04:02:08] [Server thread/INFO]: <HERBERPRO> denme eso
-[04:02:11] [Server thread/INFO]: <Light7> oe
-[04:02:19] [Server thread/INFO]: <AugustoButiDMC> ya light
-[04:02:28] [Server thread/INFO]: <Light7> es que me gusta papearlos
-[04:02:31] [Server thread/INFO]: <AugustoButiDMC> ya
-[04:02:38] [Server thread/INFO]: <HERBERPRO> vamos
-[04:02:40] [Server thread/INFO]: <elpaxarz> tp oe
-[04:02:51] [Server thread/INFO]: <Light7> oh no
-[04:02:55] [Server thread/INFO]: <AugustoButiDMC> xdd
-[04:02:58] [Server thread/INFO]: <HERBERPRO> ya cage
-[04:03:02] [Server thread/INFO]: <Light7> aqui cogi y nacio buti
-[04:03:05] [Server thread/INFO]: <elpaxarz> papa?
-[04:03:07] [Server thread/INFO]: <Light7> mi error
-[04:03:08] [Server thread/INFO]: <HERBERPRO> xddd
-[04:03:15] [Server thread/INFO]: <Light7> mi más grande error
-[04:03:26] [Server thread/INFO]: <AugustoButiDMC> xdd
-[04:03:28] [Server thread/INFO]: <HERBERPRO> xdd
-[04:03:31] [Server thread/INFO]: <AugustoButiDMC> vamos
-[04:03:57] [Server thread/INFO]: <AugustoButiDMC> uy
-[04:03:59] [Server thread/INFO]: <Light7> mira
+[04:08:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:08:42] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:08:42] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:08:42] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:08:42] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:08:42] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:08:42] [main/INFO]: Reloading ResourceManager: Default
+[04:08:43] [Worker-Main-4/INFO]: Loaded 7 recipes
+[04:08:43] [Worker-Main-4/INFO]: Loaded 927 advancements
+[04:08:45] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[04:08:45] [Server thread/INFO]: Loading properties
+[04:08:45] [Server thread/INFO]: Default game type: SURVIVAL
+[04:08:45] [Server thread/INFO]: Generating keypair
+[04:08:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:08:46] [Server thread/INFO]: Using epoll channel type
+[04:08:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:08:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:08:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:08:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:08:46] [Server thread/INFO]: Preparing level "world"
+[04:08:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:08:47] [Server thread/INFO]: Preparing spawn area: 0%
+[04:08:47] [Server thread/INFO]: Preparing spawn area: 0%
+[04:08:47] [Server thread/INFO]: Preparing spawn area: 0%
+[04:08:47] [Server thread/INFO]: Preparing spawn area: 0%
+[04:08:48] [Server thread/INFO]: Time elapsed: 1957 ms
+[04:08:48] [Server thread/INFO]: Done (2.033s)! For help, type "help"
+[04:09:07] [Server thread/INFO]: elpaxarz[/127.23.16.54:42749] logged in with entity id 42 at (-287.78014551389407, 75.0587968405392, 147.3548387981412)
+[04:09:08] [Server thread/INFO]: elpaxarz joined the game
+[04:09:09] [Server thread/INFO]: HERBERPRO[/127.156.225.78:43757] logged in with entity id 116 at (-299.5689312999357, 76.0, 148.87773619481374)
+[04:09:09] [Server thread/INFO]: HERBERPRO joined the game
+[04:09:12] [Server thread/INFO]: AugustoButiDMC[/127.132.209.140:34161] logged in with entity id 158 at (-283.49274430858907, 74.9375, 147.68648002971142)
+[04:09:12] [Server thread/INFO]: AugustoButiDMC joined the game
+[04:09:31] [Server thread/INFO]: <elpaxarz> q paso
+[04:09:52] [Server thread/INFO]: <AugustoButiDMC> xd?
+[04:10:00] [Server thread/INFO]: <elpaxarz> no tioo
+[04:10:02] [Server thread/INFO]: <AugustoButiDMC> nos atrapo el bicho
+[04:10:08] [Server thread/INFO]: <HERBERPRO> HOLA
+[04:10:16] [Server thread/INFO]: <AugustoButiDMC> OLA
+[04:10:19] [Server thread/INFO]: <elpaxarz> oa
+[04:10:23] [Server thread/INFO]: <elpaxarz> q comen
+[04:10:28] [Server thread/INFO]: <elpaxarz> inviten
+[04:10:37] [Server thread/INFO]: <AugustoButiDMC> the house
+[04:10:38] [Server thread/INFO]: <AugustoButiDMC> XD
+[04:10:48] [Server thread/INFO]: <AugustoButiDMC> A
+[04:10:54] [Server thread/WARN]: Ignoring unknown attribute 'generic.knockbackResistance'
+[04:10:59] [Server thread/INFO]: Light7[/127.6.183.42:54653] logged in with entity id 181 at (-301.9464583006185, 76.0, 147.39473625490743)
+[04:10:59] [Server thread/INFO]: Light7 joined the game
+[04:11:04] [Server thread/INFO]: <HERBERPRO> TPALE
+[04:11:12] [Server thread/INFO]: <Light7> a
+[04:11:16] [Server thread/INFO]: <AugustoButiDMC> xd
+[04:11:49] [Server thread/INFO]: <AugustoButiDMC> tomate esto
+[04:12:06] [Server thread/INFO]: <elpaxarz> herber
+[04:12:10] [Server thread/INFO]: <HERBERPRO> QUE
+[04:12:12] [Server thread/INFO]: <AugustoButiDMC> xdd
+[04:12:12] [Server thread/INFO]: <elpaxarz> tomate esto
+[04:12:13] [Server thread/INFO]: <AugustoButiDMC> miren
+[04:12:15] [Server thread/INFO]: <Light7> a
+[04:12:35] [Server thread/INFO]: <AugustoButiDMC> hay camaras
+[04:12:38] [Server thread/INFO]: <elpaxarz> tmr
+[04:12:45] [Server thread/INFO]: <elpaxarz> es fnaf o q
+[04:12:49] [Server thread/INFO]: <AugustoButiDMC> no se xd
+[04:12:53] [Server thread/INFO]: <AugustoButiDMC> y esto
+[04:13:07] [Server thread/INFO]: <AugustoButiDMC> MIREN
+[04:13:38] [Server thread/INFO]: <Light7> no puedo pegar
+[04:14:12] [Server thread/INFO]: <Light7> buti
+[04:14:15] [Server thread/INFO]: <AugustoButiDMC> dime
+[04:14:15] [Server thread/INFO]: <Light7> no puedo golpear
+[04:14:25] [Server thread/INFO]: <AugustoButiDMC> a
+[04:14:34] [Server thread/INFO]: <AugustoButiDMC> pero todos pueden
+[04:14:43] [Server thread/INFO]: <Light7> yo no
+[04:14:49] [Server thread/INFO]: <AugustoButiDMC> ya no es culpa mia
+[04:14:59] [Server thread/INFO]: <AugustoButiDMC> creo q es pq no estuviste en el loadind
+[04:15:10] [Server thread/INFO]: <Light7> ojala el condon no se hubiera roto
+[04:15:12] [Server thread/INFO]: <elpaxarz> ABAJOO
+[04:15:24] [Server thread/INFO]: <Light7> tepeame
+[04:15:49] [Server thread/INFO]: <Light7> no estoy en la cas
+[04:16:34] [Server thread/INFO]: <AugustoButiDMC> ya lo mate
+[04:16:37] [Server thread/INFO]: <HERBERPRO> SII
+[04:16:39] [Server thread/INFO]: <Light7> tepeame me mato x
+[04:17:10] [Server thread/INFO]: <AugustoButiDMC> a quien le falta espada de oro
+[04:17:21] [Server thread/INFO]: <HERBERPRO> YO
+[04:17:59] [Server thread/INFO]: <AugustoButiDMC> deja traduzco
+[04:18:14] [Server thread/INFO]: <elpaxarz> tengo un disco
+[04:18:21] [Server thread/INFO]: Villager bfj['Leatherworker'/152, l='ServerLevel[Minecraft Horror Map]', x=-453.75, y=84.00, z=167.21] died, message: 'Leatherworker was slain by AugustoButiDMC'

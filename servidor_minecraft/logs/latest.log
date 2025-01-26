@@ -1,357 +1,156 @@
-[26Jan2025 02:25:35.902] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
-[26Jan2025 02:25:35.905] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04
-[26Jan2025 02:25:35.906] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.2 starting: java version 21.0.5 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[26Jan2025 02:25:35.993] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
-[26Jan2025 02:25:36.110] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/DEDSAFIO1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
-[26Jan2025 02:25:36.374] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[26Jan2025 02:25:37.188] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
-[26Jan2025 02:25:37.544] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
-[26Jan2025 02:25:37.677] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/workspaces/DEDSAFIO1/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
-[26Jan2025 02:25:42.671] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 53.0.25, for MC 1.21.3 with MCP 20241025.112443
-[26Jan2025 02:25:42.671] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v53.0.25 Initialized
-[26Jan2025 02:25:42.686] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[26Jan2025 02:25:43.363] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Jan2025 02:25:43.896] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 53.0.25 Target: 53.0.39
-[26Jan2025 02:25:44.381] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[26Jan2025 02:25:46.708] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1337 recipes
-[26Jan2025 02:25:46.729] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
-[26Jan2025 02:25:46.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.3
-[26Jan2025 02:25:46.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[26Jan2025 02:25:46.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[26Jan2025 02:25:46.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Jan2025 02:25:46.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[26Jan2025 02:25:47.041] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[26Jan2025 02:25:47.103] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[26Jan2025 02:25:47.103] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[26Jan2025 02:25:47.104] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[26Jan2025 02:25:47.104] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[26Jan2025 02:25:47.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[26Jan2025 02:25:47.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Jan2025 02:25:47.560] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jan2025 02:25:47.634] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 270 ms
-[26Jan2025 02:25:47.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.516s)! For help, type "help"
-[26Jan2025 02:25:47.648] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Jan2025 02:26:01.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: HERBERPRO[/127.156.225.78:41201] logged in with entity id 3 at (0.5, 61.0, 0.5)
-[26Jan2025 02:26:01.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO joined the game
-[26Jan2025 02:26:09.602] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AugustoButiDMC[/127.132.209.140:34439] logged in with entity id 4 at (4.638033837815168, -70.29439802975241, -5.03497487036691)
-[26Jan2025 02:26:09.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC joined the game
-[26Jan2025 02:26:14.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:26:23.853] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@36db0b9b[id=50d0ae01-144f-398f-9b4a-1aa57a020e64,name=Light7,properties={}] lost connection: Disconnected
-[26Jan2025 02:26:26.696] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elpaxarz[/127.23.16.54:44031] logged in with entity id 13 at (0.5, 61.0, 0.5)
-[26Jan2025 02:26:26.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz joined the game
-[26Jan2025 02:26:26.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:26:33.175] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Light7[/127.6.183.42:49331] logged in with entity id 19 at (-0.18638951155879033, 61.7531999805212, 1.1717812043832745)
-[26Jan2025 02:26:33.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 joined the game
-[26Jan2025 02:26:36.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:26:37.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no empujen p
-[26Jan2025 02:26:38.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:26:39.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:26:44.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> ok
-[26Jan2025 02:26:51.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> oe ya
-[26Jan2025 02:26:51.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:26:52.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> oe ya
-[26Jan2025 02:26:52.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> XD
-[26Jan2025 02:26:52.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> oe ya
-[26Jan2025 02:26:54.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:26:55.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:26:55.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:26:56.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:27:03.884] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC moved too quickly! 0.0,-20.66962792612165,0.0
-[26Jan2025 02:27:05.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:27:06.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> noooo
-[26Jan2025 02:27:07.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:27:08.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:27:08.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:27:10.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made AugustoButiDMC a server operator
-[26Jan2025 02:27:19.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> ya pe
-[26Jan2025 02:27:21.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:27:24.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:27:25.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:27:26.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:27:30.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Light7 lost connection: YA CHUCHA
-[26Jan2025 02:27:30.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 left the game
-[26Jan2025 02:27:30.815] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[26Jan2025 02:27:45.890] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Light7[/127.6.183.42:39355] logged in with entity id 66 at (-0.2791552019203007, 61.0, 0.7678950105534009)
-[26Jan2025 02:27:45.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 joined the game
-[26Jan2025 02:27:49.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> XD
-[26Jan2025 02:27:57.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> ya
-[26Jan2025 02:27:59.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> ya fuiste
-[26Jan2025 02:28:02.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:28:04.949] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Light7 lost connection: YA CHUCHA
-[26Jan2025 02:28:04.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 left the game
-[26Jan2025 02:28:09.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> XD
-[26Jan2025 02:28:12.910] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Light7[/127.6.183.42:60129] logged in with entity id 82 at (0.7102605233482283, 61.0, 0.5595516895857253)
-[26Jan2025 02:28:12.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 joined the game
-[26Jan2025 02:28:22.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:28:25.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> XD
-[26Jan2025 02:28:28.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:28:39.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was doomed to fall by Light7
-[26Jan2025 02:28:42.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> pero
-[26Jan2025 02:28:51.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was doomed to fall by Light7
-[26Jan2025 02:29:01.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> PDJS
-[26Jan2025 02:29:01.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:29:05.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> yaya
-[26Jan2025 02:29:06.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> como se cae
-[26Jan2025 02:29:09.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> puse keepinventory
-[26Jan2025 02:29:10.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> puse keepinventory
-[26Jan2025 02:29:10.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> puse keepinventory
-[26Jan2025 02:29:14.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> GODDD
-[26Jan2025 02:29:18.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> oe
-[26Jan2025 02:29:22.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:29:26.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> HJDP
-[26Jan2025 02:29:26.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:29:29.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:29:33.249] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Light7 lost connection: YA CHUCHA
-[26Jan2025 02:29:33.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 left the game
-[26Jan2025 02:29:38.949] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz lost connection: YA CHUCHA
-[26Jan2025 02:29:38.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz left the game
-[26Jan2025 02:29:41.459] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Light7[/127.6.183.42:57065] logged in with entity id 121 at (-1.3252159843730604, 61.0, -1.5379072147721857)
-[26Jan2025 02:29:41.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 joined the game
-[26Jan2025 02:29:42.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:29:45.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:29:53.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:29:55.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> la grava
-[26Jan2025 02:29:56.959] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elpaxarz[/127.23.16.54:36601] logged in with entity id 137 at (-0.1504158800228918, 61.0, 0.5658520591031571)
-[26Jan2025 02:29:56.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz joined the game
-[26Jan2025 02:30:01.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> oe
-[26Jan2025 02:30:06.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:30:08.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:30:28.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> pon agua
-[26Jan2025 02:30:28.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> pongan algo abajo
-[26Jan2025 02:30:34.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> estamos perdiendo grava
-[26Jan2025 02:30:49.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> xda
-[26Jan2025 02:31:13.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:31:14.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:31:16.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> tamare
-[26Jan2025 02:31:21.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:31:29.749] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz lost connection: YA CHUCHA
-[26Jan2025 02:31:29.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz left the game
-[26Jan2025 02:31:48.172] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elpaxarz[/127.23.16.54:58149] logged in with entity id 189 at (0.20599836687922812, 12.233864147112277, 2.06633064517974)
-[26Jan2025 02:31:48.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz joined the game
-[26Jan2025 02:31:58.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no lo mates
-[26Jan2025 02:31:58.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:31:58.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> ese herberpro lootea todo xd
-[26Jan2025 02:32:03.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz lost connection: YA CHUCHA
-[26Jan2025 02:32:03.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz left the game
-[26Jan2025 02:32:08.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:32:15.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> perdimos el agua p
-[26Jan2025 02:32:20.068] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elpaxarz[/127.23.16.54:37599] logged in with entity id 201 at (0.699999988079071, 61.0, 0.6093609194316215)
-[26Jan2025 02:32:20.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz joined the game
-[26Jan2025 02:32:32.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:32:44.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was doomed to fall by Light7
-[26Jan2025 02:32:53.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:33:08.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:33:15.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> mira el cofre
-[26Jan2025 02:33:20.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by Light7
-[26Jan2025 02:33:21.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was doomed to fall by Light7
-[26Jan2025 02:33:23.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:33:28.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> oe
-[26Jan2025 02:33:31.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:33:32.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> deja picar oe
-[26Jan2025 02:33:32.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:33:33.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was doomed to fall by HERBERPRO
-[26Jan2025 02:33:36.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> deja picar oe
-[26Jan2025 02:33:37.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> deja picar oe
-[26Jan2025 02:33:48.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:33:49.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by AugustoButiDMC
-[26Jan2025 02:33:54.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> deja picar oe
-[26Jan2025 02:34:09.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:34:15.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> pollos
-[26Jan2025 02:34:17.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> no maten
-[26Jan2025 02:34:23.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:34:32.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by Light7
-[26Jan2025 02:34:36.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> por que matas
-[26Jan2025 02:34:41.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> ese pobre pollo
-[26Jan2025 02:34:55.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by HERBERPRO
-[26Jan2025 02:35:01.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by AugustoButiDMC
-[26Jan2025 02:35:03.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was slain by Light7
-[26Jan2025 02:35:12.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> pq hay tantos cerdos xd
-[26Jan2025 02:35:12.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by HERBERPRO
-[26Jan2025 02:35:32.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:35:34.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> XDD
-[26Jan2025 02:35:34.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:35:35.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:35:35.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:35:38.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:35:43.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> oe que
-[26Jan2025 02:35:49.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> no se
-[26Jan2025 02:35:51.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by Light7
-[26Jan2025 02:35:56.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> tmr
-[26Jan2025 02:36:02.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> tantos cerdos?
-[26Jan2025 02:36:06.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by Light7
-[26Jan2025 02:36:13.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by elpaxarz
-[26Jan2025 02:36:17.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:36:22.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> NO MATES A MI PAAP
-[26Jan2025 02:36:24.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by HERBERPRO
-[26Jan2025 02:36:28.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by Light7
-[26Jan2025 02:36:38.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:36:52.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:36:56.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:37:00.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> MATEN A LOS CERDOS
-[26Jan2025 02:37:01.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> MATEN A LOS CERDOS
-[26Jan2025 02:37:02.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> MATEN A LOS CERDOS
-[26Jan2025 02:37:05.200] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz lost connection: Timed out
-[26Jan2025 02:37:05.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz left the game
-[26Jan2025 02:37:06.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by AugustoButiDMC
-[26Jan2025 02:37:16.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> ya oe
-[26Jan2025 02:37:16.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> mrd
-[26Jan2025 02:37:17.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elpaxarz[/127.23.16.54:60027] logged in with entity id 464 at (-4.964932097042138, 61.0, 1.5446408860984404)
-[26Jan2025 02:37:17.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz joined the game
-[26Jan2025 02:37:18.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> MATEN A LOS CERDOS
-[26Jan2025 02:37:20.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> MATEN A LOS CERDOS
-[26Jan2025 02:37:20.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:37:20.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> MATEN A LOS CERDOS
-[26Jan2025 02:37:46.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:37:54.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was slain by Light7
-[26Jan2025 02:38:01.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:38:14.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by HERBERPRO
-[26Jan2025 02:38:20.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by Light7
-[26Jan2025 02:38:30.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> ya oe
-[26Jan2025 02:38:33.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:38:50.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> deja a los animales
-[26Jan2025 02:38:51.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:38:56.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> tmr
-[26Jan2025 02:38:57.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> hay muchos
-[26Jan2025 02:39:00.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> habia
-[26Jan2025 02:39:01.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> quien los voto
-[26Jan2025 02:39:09.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by AugustoButiDMC
-[26Jan2025 02:39:13.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:39:15.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:39:18.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> HERBERPRO empujo
-[26Jan2025 02:39:23.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was slain by elpaxarz
-[26Jan2025 02:39:34.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:39:37.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> xdd
-[26Jan2025 02:39:46.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> oe
-[26Jan2025 02:39:56.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by Light7
-[26Jan2025 02:40:01.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> empujo como a 4
-[26Jan2025 02:40:04.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by AugustoButiDMC
-[26Jan2025 02:40:24.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:40:38.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> nos vamos a quedar sin comida despues oe
-[26Jan2025 02:40:42.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:40:46.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> dedsafio murio verdad??
-[26Jan2025 02:40:52.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> hace tiempo xd
-[26Jan2025 02:40:53.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> como asi
-[26Jan2025 02:40:53.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by AugustoButiDMC
-[26Jan2025 02:41:04.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> no mates
-[26Jan2025 02:41:06.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC didn't want to live in the same world as Light7
-[26Jan2025 02:41:08.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by elpaxarz
-[26Jan2025 02:41:12.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:41:13.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:41:19.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:41:20.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by AugustoButiDMC
-[26Jan2025 02:41:22.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by AugustoButiDMC
-[26Jan2025 02:41:26.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:41:27.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by AugustoButiDMC
-[26Jan2025 02:41:27.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:41:28.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by AugustoButiDMC
-[26Jan2025 02:41:30.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC was slain by Light7
-[26Jan2025 02:41:33.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> a
-[26Jan2025 02:41:36.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> ya oe
-[26Jan2025 02:41:41.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by Light7
-[26Jan2025 02:42:00.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:42:12.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by Light7
-[26Jan2025 02:42:22.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> no maten mrd
-[26Jan2025 02:42:32.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 was slain by HERBERPRO
-[26Jan2025 02:42:43.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> oee
-[26Jan2025 02:42:44.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:42:45.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC didn't want to live in the same world as Light7
-[26Jan2025 02:42:48.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:42:53.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> piquen el bloque
-[26Jan2025 02:43:03.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> q mundo mas vanilla buti
-[26Jan2025 02:43:04.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:43:13.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC didn't want to live in the same world as Light7
-[26Jan2025 02:43:19.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:43:24.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was slain by Light7
-[26Jan2025 02:43:35.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> XD
-[26Jan2025 02:43:37.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> xd
-[26Jan2025 02:43:48.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> YA OE
-[26Jan2025 02:43:56.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:44:12.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:44:21.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> miren
-[26Jan2025 02:44:24.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> solito se cae
-[26Jan2025 02:44:26.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:44:28.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> arriba
-[26Jan2025 02:44:31.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:44:37.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell from a high place
-[26Jan2025 02:44:39.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> a
-[26Jan2025 02:44:45.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> xd
-[26Jan2025 02:45:04.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:45:18.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by AugustoButiDMC
-[26Jan2025 02:45:26.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:45:34.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> vamos a pvp oe
-[26Jan2025 02:45:38.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> verdad
-[26Jan2025 02:45:39.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> si xd
-[26Jan2025 02:45:42.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> pero si vamos a pvpv
-[26Jan2025 02:45:45.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> deluxe
-[26Jan2025 02:45:47.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> me los voy a papear
-[26Jan2025 02:45:58.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> mis hijos
-[26Jan2025 02:46:03.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> ya tengo papa
-[26Jan2025 02:46:04.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> todos con light7
-[26Jan2025 02:46:06.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> es piero
-[26Jan2025 02:46:09.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:46:15.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:46:17.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC fell out of the world
-[26Jan2025 02:46:21.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> esperense
-[26Jan2025 02:46:23.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> se cayo solito
-[26Jan2025 02:46:23.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:46:26.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:46:34.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was slain by Light7
-[26Jan2025 02:46:43.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:46:45.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> xd
-[26Jan2025 02:46:48.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:46:48.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> danos creativo p
-[26Jan2025 02:46:57.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> xxxdddd
-[26Jan2025 02:47:01.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:47:09.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:47:11.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:47:18.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> buti danos creativo
-[26Jan2025 02:47:23.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:47:27.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 walked into fire while fighting HERBERPRO
-[26Jan2025 02:47:29.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:47:37.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:47:41.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:47:50.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:47:51.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:47:54.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 didn't want to live in the same world as elpaxarz
-[26Jan2025 02:48:00.243] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz moved too quickly! -1.6558865081149658,-19.39058836118609,0.3364098074052295
-[26Jan2025 02:48:01.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> xd
-[26Jan2025 02:48:03.130] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz moved too quickly! -0.5600405707734524,-13.343619686234007,0.12114450889453682
-[26Jan2025 02:48:03.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:48:05.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:48:06.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:48:10.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elpaxarz> buti
-[26Jan2025 02:48:10.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> ala
-[26Jan2025 02:48:11.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> xdd
-[26Jan2025 02:48:14.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> buti
-[26Jan2025 02:48:14.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> xdddd
-[26Jan2025 02:48:15.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 fell out of the world
-[26Jan2025 02:48:23.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz was doomed to fall by HERBERPRO
-[26Jan2025 02:48:38.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO was blown up by AugustoButiDMC
-[26Jan2025 02:48:39.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Light7> a
-[26Jan2025 02:48:40.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Light7 moved too quickly! 0.0,-14.1339691699224,0.0
-[26Jan2025 02:48:41.446] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2147ms or 42 ticks behind
-[26Jan2025 02:48:44.054] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Light7 lost connection: Disconnected
-[26Jan2025 02:48:44.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Light7 left the game
-[26Jan2025 02:48:44.578] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz lost connection: Disconnected
-[26Jan2025 02:48:44.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz left the game
-[26Jan2025 02:48:47.986] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO moved too quickly! -4.259061859260534,-10.156278930094452,0.9260374177949797
-[26Jan2025 02:48:50.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO moved too quickly! 0.19486711763205378,-10.699299318513145,0.7805475945465732
-[26Jan2025 02:48:50.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> mi pcc
-[26Jan2025 02:48:51.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:48:56.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO fell out of the world
-[26Jan2025 02:49:02.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> sigo vivoo
-[26Jan2025 02:49:04.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <AugustoButiDMC> xd
-[26Jan2025 02:49:09.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <HERBERPRO> no me sali
-[26Jan2025 02:49:42.299] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AugustoButiDMC lost connection: Disconnected
-[26Jan2025 02:49:42.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AugustoButiDMC left the game
-[26Jan2025 02:49:52.749] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: HERBERPRO lost connection: Disconnected
-[26Jan2025 02:49:52.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: HERBERPRO left the game
-[26Jan2025 02:49:56.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elpaxarz[/127.23.16.54:42827] logged in with entity id 5310 at (-1.7856340800038757, 60.207381111072955, 3.3189076140812923)
-[26Jan2025 02:49:56.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz joined the game
-[26Jan2025 02:50:03.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:50:04.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz moved too quickly! 0.0,-22.299947189757802,0.0
-[26Jan2025 02:50:33.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:50:43.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz fell out of the world
-[26Jan2025 02:50:51.349] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elpaxarz lost connection: Disconnected
-[26Jan2025 02:50:51.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elpaxarz left the game
-[26Jan2025 02:51:51.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[03:54:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:54:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:54:05] [main/INFO]: Reloading ResourceManager: Default
+[03:54:06] [Worker-Main-4/INFO]: Loaded 7 recipes
+[03:54:06] [Worker-Main-4/INFO]: Loaded 927 advancements
+[03:54:08] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[03:54:08] [Server thread/INFO]: Loading properties
+[03:54:08] [Server thread/INFO]: Default game type: SURVIVAL
+[03:54:08] [Server thread/INFO]: Generating keypair
+[03:54:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:54:08] [Server thread/INFO]: Using epoll channel type
+[03:54:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:54:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:54:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:54:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:54:08] [Server thread/INFO]: Preparing level "world"
+[03:54:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:54:10] [Server thread/INFO]: Preparing spawn area: 0%
+[03:54:11] [Server thread/INFO]: Time elapsed: 1949 ms
+[03:54:11] [Server thread/INFO]: Done (2.072s)! For help, type "help"
+[03:54:12] [Server thread/INFO]: HERBERPRO[/127.156.225.78:51441] logged in with entity id 40 at (-3.5, 75.0, -15.5)
+[03:54:12] [Server thread/INFO]: HERBERPRO joined the game
+[03:54:15] [Server thread/INFO]: HERBERPRO lost connection: You logged in from another location
+[03:54:15] [Server thread/INFO]: HERBERPRO left the game
+[03:54:15] [Server thread/INFO]: HERBERPRO[/127.156.225.78:53851] logged in with entity id 46 at (-3.5, 75.0, -15.5)
+[03:54:15] [Server thread/INFO]: HERBERPRO joined the game
+[03:54:22] [Server thread/INFO]: HERBERPRO lost connection: Disconnected
+[03:54:22] [Server thread/INFO]: HERBERPRO left the game
+[03:54:53] [Server thread/INFO]: AugustoButiDMC[/127.132.209.140:35683] logged in with entity id 47 at (-15.699999988079071, 75.0, -10.699999988079071)
+[03:54:53] [Server thread/INFO]: AugustoButiDMC joined the game
+[03:55:12] [Server thread/INFO]: Light7[/127.6.183.42:34967] logged in with entity id 48 at (-24.707099041110183, 75.5, -13.188070164705243)
+[03:55:12] [Server thread/INFO]: Light7 joined the game
+[03:55:23] [Server thread/INFO]: <Light7> xd
+[03:55:47] [Server thread/INFO]: <AugustoButiDMC> ya oe
+[03:56:03] [Server thread/INFO]: <AugustoButiDMC> q tengo el la cara?
+[03:56:07] [Server thread/INFO]: HERBERPRO[/127.156.225.78:40513] logged in with entity id 55 at (-3.5, 75.0, -15.5)
+[03:56:07] [Server thread/INFO]: HERBERPRO joined the game
+[03:56:09] [Server thread/INFO]: <Light7> nada
+[03:56:11] [Server thread/INFO]: <Light7> a
+[03:56:12] [Server thread/INFO]: <AugustoButiDMC> hay?
+[03:56:13] [Server thread/INFO]: <Light7> xd
+[03:56:20] [Server thread/INFO]: <AugustoButiDMC> hay?
+[03:56:20] [Server thread/INFO]: <AugustoButiDMC> hay?
+[03:56:21] [Server thread/INFO]: <AugustoButiDMC> hay?
+[03:56:21] [Server thread/INFO]: <AugustoButiDMC> hay?
+[03:56:22] [Server thread/INFO]: <AugustoButiDMC> hay?
+[03:56:24] [Server thread/INFO]: <Light7> te vez raro
+[03:56:28] [Server thread/INFO]: <AugustoButiDMC> que tengo
+[03:56:34] [Server thread/INFO]: <Light7> una mascarilla
+[03:56:37] [Server thread/INFO]: <AugustoButiDMC> ok
+[03:56:59] [Server thread/INFO]: <AugustoButiDMC> falto paxa
+[03:57:05] [Server thread/INFO]: <HERBERPRO> holaa
+[03:57:10] [Server thread/INFO]: <AugustoButiDMC> se te cargo el texture apck?
+[03:57:16] [Server thread/INFO]: <Light7> mis hijos juntos
+[03:57:17] [Server thread/INFO]: <HERBERPRO> si
+[03:57:20] [Server thread/INFO]: <AugustoButiDMC> seguro?
+[03:57:24] [Server thread/INFO]: <HERBERPRO> si
+[03:57:24] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:26] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:26] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:46] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:48] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:49] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:49] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:49] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:50] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:50] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:51] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:51] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:52] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:52] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:52] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:53] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:53] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:53] [Server thread/INFO]: <Light7> mi condon ponchado
+[03:57:53] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:54] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:54] [Server thread/INFO]: <AugustoButiDMC> que tengo en la cara
+[03:57:57] [Server thread/INFO]: <HERBERPRO> un barbijo nose que
+[03:57:57] [Server thread/INFO]: <AugustoButiDMC> herber
+[03:58:00] [Server thread/INFO]: <AugustoButiDMC> a xd
+[03:58:04] [Server thread/INFO]: <AugustoButiDMC> falta paxa
+[03:58:19] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
+[03:58:36] [Server thread/INFO]: <Light7> lo que le gusta a paxar
+[03:58:44] [Server thread/INFO]: <AugustoButiDMC> lo dejamos?
+[03:58:55] [Server thread/INFO]: <Light7> escribele por d
+[03:58:58] [Server thread/INFO]: <Light7> dc*
+[03:59:09] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
+[03:59:09] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
+[03:59:09] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
+[03:59:10] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
+[03:59:10] [Server thread/INFO]: <AugustoButiDMC> si no tienen el texture pack para enviarlo al dc
+[03:59:16] [Server thread/INFO]: <HERBERPRO> porque suena uuhh
+[03:59:45] [Server thread/INFO]: elpaxarz[/127.23.16.54:34927] logged in with entity id 73 at (-11.5, 75.0, -16.5)
+[03:59:45] [Server thread/INFO]: elpaxarz joined the game
+[03:59:55] [Server thread/INFO]: <elpaxarz> ola
+[03:59:57] [Server thread/INFO]: <HERBERPRO> hola
+[04:00:10] [Server thread/INFO]: <elpaxarz> veo negro
+[04:00:14] [Server thread/INFO]: <HERBERPRO> light7 dejaa
+[04:00:15] [Server thread/INFO]: <elpaxarz> AL
+[04:00:19] [Server thread/INFO]: <AugustoButiDMC> tienes el texturepack?
+[04:00:23] [Server thread/INFO]: <AugustoButiDMC> tienes el texturepack?
+[04:00:24] [Server thread/INFO]: <AugustoButiDMC> tienes el texturepack?
+[04:00:28] [Server thread/INFO]: <elpaxarz> SI
+[04:00:33] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
+[04:00:34] [Server thread/INFO]: <elpaxarz> q es
+[04:00:36] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
+[04:00:36] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
+[04:00:41] [Server thread/INFO]: <elpaxarz> mi ping4
+[04:00:42] [Server thread/INFO]: <Light7> un pene
+[04:00:44] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
+[04:00:50] [Server thread/INFO]: <AugustoButiDMC> en serio q tengo en la cara
+[04:01:00] [Server thread/INFO]: <Light7> mirate con f5 no jdas
+[04:01:14] [Server thread/INFO]: <AugustoButiDMC> es para ver si tiene el texture pack
+[04:01:26] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
+[04:01:27] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
+[04:01:27] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
+[04:01:27] [Server thread/INFO]: <AugustoButiDMC> paxa te baneo si no dices nada
+[04:01:29] [Server thread/INFO]: <elpaxarz> a
+[04:01:34] [Server thread/INFO]: <AugustoButiDMC> q tengo en la cara
+[04:01:40] [Server thread/INFO]: <elpaxarz> mi pne
+[04:01:41] [Server thread/INFO]: <Light7> un pene
+[04:01:45] [Server thread/INFO]: <Light7> xd
+[04:01:48] [Server thread/INFO]: <AugustoButiDMC> listo
+[04:01:50] [Server thread/INFO]: <elpaxarz> una mascara xd
+[04:01:52] [Server thread/INFO]: elpaxarz lost connection: chao
+[04:01:52] [Server thread/INFO]: elpaxarz left the game
+[04:02:06] [Server thread/INFO]: elpaxarz[/127.23.16.54:58609] logged in with entity id 76 at (-11.675871464617932, 76.0, -24.84732328476682)
+[04:02:06] [Server thread/INFO]: elpaxarz joined the game
+[04:02:08] [Server thread/INFO]: <HERBERPRO> denme eso
+[04:02:11] [Server thread/INFO]: <Light7> oe
+[04:02:19] [Server thread/INFO]: <AugustoButiDMC> ya light
+[04:02:28] [Server thread/INFO]: <Light7> es que me gusta papearlos
+[04:02:31] [Server thread/INFO]: <AugustoButiDMC> ya
+[04:02:38] [Server thread/INFO]: <HERBERPRO> vamos
+[04:02:40] [Server thread/INFO]: <elpaxarz> tp oe
+[04:02:51] [Server thread/INFO]: <Light7> oh no
+[04:02:55] [Server thread/INFO]: <AugustoButiDMC> xdd
+[04:02:58] [Server thread/INFO]: <HERBERPRO> ya cage
+[04:03:02] [Server thread/INFO]: <Light7> aqui cogi y nacio buti
+[04:03:05] [Server thread/INFO]: <elpaxarz> papa?
+[04:03:07] [Server thread/INFO]: <Light7> mi error
+[04:03:08] [Server thread/INFO]: <HERBERPRO> xddd
+[04:03:15] [Server thread/INFO]: <Light7> mi más grande error
+[04:03:26] [Server thread/INFO]: <AugustoButiDMC> xdd
+[04:03:28] [Server thread/INFO]: <HERBERPRO> xdd
+[04:03:31] [Server thread/INFO]: <AugustoButiDMC> vamos
+[04:03:57] [Server thread/INFO]: <AugustoButiDMC> uy
+[04:03:59] [Server thread/INFO]: <Light7> mira
